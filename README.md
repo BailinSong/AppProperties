@@ -1,5 +1,5 @@
 # 应用属性读取
-##描述
+## 描述
  * 属性读取优先级
  	* 命令行属性>系统属性>环境变量>应用当前目录属性文件>资源路径属性文件
  	* 高优先级属性覆盖低优先级属性
@@ -32,7 +32,7 @@
  	`<PropertyName>=${random.int}` 随机int值正数:0-MaxIntValue<br>
  	`<PropertyName>=${random.int[MaxBound>]}` 随机int值正数:0-MaxBound<br>
  	`<PropertyName>=${random.int[<MiniBound>,<MaxBound>]}` 随机int值正数:MiniBound-MaxBound<br>
-##演示
+## 演示
 * 命令行
 ```
 java -jar xxx.jar --app.user=admin -Dhttp.useproxy=true
