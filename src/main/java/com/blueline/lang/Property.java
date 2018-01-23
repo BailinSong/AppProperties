@@ -43,7 +43,7 @@ import java.util.regex.Pattern;
  *
  *  资源路径属性文件
  *  	对应路径 Properties.class.getResource("/")
- *  	如果指定了profiles.active 并且 application.properties 存在那么对应属性文件必须存在
+ *  	激活的属性文件属性会覆盖application.properties中的同名属性
  *  	属性文件名称：application[-<profiles.active>].properties
  *
  *  支持属性中引用直接引用属性 ${PropertyName},运行期间会替换为属性值
